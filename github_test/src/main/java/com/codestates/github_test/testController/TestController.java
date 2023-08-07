@@ -10,4 +10,8 @@ public class TestController {
     public String rootAPI() {
         return "Test Git branch main to dev";
     }
+    @GetMapping(value = "/1")
+    public String rootAPI2() {
+        return "TestMerge";
+    }
 }
