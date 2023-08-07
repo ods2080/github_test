@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping(value = "/")
     public String rootAPI() {
-        return "Test Git branch";
+        return "Test Git branch main to dev";
     }
 }
