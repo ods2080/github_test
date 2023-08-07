@@ -6,12 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping(value = "/")
+    @GetMapping("/")
     public String rootAPI() {
-        return "Test Git branch main to dev";
-    }
-    @GetMapping(value = "/1")
-    public String rootAPI2() {
-        return "TestMerge";
+        return "To-do Application !";
     }
 }
